@@ -13,18 +13,25 @@ body {
   line-height: 1.7;
 }
 
-/* Manuscript */
 .manuscript {
   min-height: 100vh;
-  padding: 80px 20px;
+  padding: 120px 20px;
   text-align: center;
 }
 
 .manuscript h1 {
-  font-size: 48px;
-  letter-spacing: 4px;
-  margin-bottom: 10px;
+  font-size: 52px;
+  letter-spacing: 6px;
+  margin-bottom: 14px;
 }
+
+.manuscript p {
+  max-width: 640px;
+  margin: 26px auto;
+  font-size: 18px;
+  color: #333;
+}
+
 
 .subtitle {
   font-size: 16px;
@@ -32,33 +39,34 @@ body {
   margin-bottom: 40px;
 }
 
-.manuscript p {
-  max-width: 600px;
-  margin: 20px auto;
-  font-size: 18px;
-}
 
-/* Navigation */
+
 nav {
   position: sticky;
   top: 0;
   background: #faf8f5;
-  padding: 12px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  padding: 14px 10px;
+  border-top: 1px solid #e6e2dd;
+  border-bottom: 1px solid #e6e2dd;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 nav a {
-  margin: 0 8px;
-  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
   font-size: 14px;
-  color: #444;
+  text-decoration: none;
+  color: #5a5a5a;
+  padding-bottom: 4px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #000;
+  border-bottom: 1px solid #000;
 }
+
+
 
 /* Content */
 main {
@@ -68,23 +76,39 @@ main {
 }
 
 section {
-  margin-bottom: 80px;
+  margin-bottom: 96px;
 }
 
 section h2 {
-  font-size: 24px;
-  margin-bottom: 16px;
+  font-size: 26px;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
 }
 
 section p {
   font-size: 18px;
+  color: #2e2e2e;
 }
-
-/* Footer */
 footer {
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px 80px;
   font-size: 14px;
-  color: #777;
+  color: #888;
 }
+
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 
