@@ -39,6 +39,14 @@ body {
   margin-bottom: 40px;
 }
 
+nav a {
+  opacity: 0.7;
+}
+
+nav a.active {
+  opacity: 1;
+  font-weight: 600;
+}
 
 
 nav {
@@ -81,9 +89,13 @@ section {
 
 section h2 {
   font-size: 26px;
-  margin-bottom: 18px;
-  letter-spacing: 0.5px;
+  font-weight: 600;
 }
+section p {
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
 
 section p {
   font-size: 18px;
@@ -107,8 +119,13 @@ section {
     opacity: 1;
     transform: translateY(0);
   }
-}
 
+
+.divider {
+  border: none;
+  border-top: 1px solid #e4dfd9;
+  margin: 80px 0;
+}
 
 
 
