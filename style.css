@@ -189,6 +189,28 @@ summary::after {
   opacity: 0.9;
 }
 
+details {
+  border-bottom: 1px solid #e5e0da;
+  padding: 14px 0;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #b22222; /* chilli underline */
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::marker {
+  display: none;
+}
+
 
 
 
