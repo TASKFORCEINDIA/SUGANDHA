@@ -126,6 +126,43 @@ section {
   border-top: 1px solid #e4dfd9;
   margin: 80px 0;
 }
+.accordion {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+details {
+  border-bottom: 1px solid #e4dfd9;
+  padding: 14px 0;
+}
+
+summary {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+summary::after {
+  content: "▾";
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+details p {
+  margin-top: 14px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
 
 
 
