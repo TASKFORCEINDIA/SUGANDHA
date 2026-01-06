@@ -138,14 +138,15 @@ details {
 }
 
 summary {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   cursor: pointer;
   list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  border-bottom: 2px solid #b22222; /* chilli red */
 }
+
 
 summary::after {
   content: "▾";
@@ -162,6 +163,13 @@ details p {
   font-size: 18px;
   line-height: 1.7;
   color: #333;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "";
 }
 
 
