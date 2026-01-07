@@ -7,11 +7,12 @@
 
 /* Body */
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  background: #0f0f0f;
-  color: #eaeaea;
-  line-height: 1.6;
+  background: #ffffff;
+  color: #000000;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
 
 /* Manuscript Section */
 .manuscript {
