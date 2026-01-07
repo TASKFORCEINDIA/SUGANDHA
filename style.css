@@ -91,4 +91,24 @@ img {
   display: block;
   background: #fff;
 }
+  
+/* remove arrows */
+details summary::marker,
+summary::marker {
+  content: "";
+}
+
+/* clean underline */
+details summary {
+  list-style: none;
+  cursor: pointer;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.15); /* subtle underline */
+}
+
+/* remove default arrow spacing */
+details summary::-webkit-details-marker {
+  display: none;
+}
 
