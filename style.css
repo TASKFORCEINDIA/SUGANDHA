@@ -13,14 +13,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
-/* Manuscript Section */
 .manuscript {
   max-width: 900px;
-  margin: 60px auto;
+  margin: 30px auto 40px; /* pulled up */
   padding: 20px;
   text-align: center;
 }
+
+
 
 /* Title */
 .manuscript h1 {
@@ -30,11 +30,13 @@ body {
 }
 
 /* Subtitle */
+
 .subtitle {
-  font-size: 12px;        /* smaller */
+  font-size: 12px;
+  font-weight: 600;          /* bolder */
   letter-spacing: 2px;
   color: #8b1e1e;
-  margin-bottom: 24px;    /* tighter */
+  margin-bottom: 14px;       /* closer */
   text-transform: uppercase;
 }
 
@@ -45,7 +47,7 @@ body {
   display: flex;
   gap: 16px;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .hero-images img {
@@ -72,11 +74,14 @@ body {
   margin-bottom: 22px;
 }
 .manuscript p {
-  font-size: 16px;
+  font-size: 15px;           /* slightly smaller */
+  font-weight: 500;          /* clearer */
   color: #8b1e1e;
-  margin-bottom: 22px;
-  white-space: nowrap;     /* ONE LINE */
+  margin-top: 6px;           /* pulls it UP */
+  margin-bottom: 18px;
+  white-space: nowrap;
 }
+
 
 
 
