@@ -31,12 +31,14 @@ body {
 
 /* Subtitle */
 .subtitle {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 2px;
-  color: #b89b5e;
+  color: #9c6b1f; /* dark gold */
+  font-weight: 600;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
+
 
 /* Images */
 .hero-images {
@@ -65,9 +67,11 @@ body {
 /* Paragraphs */
 .manuscript p {
   font-size: 17px;
-  color: #d2d2d2;
+  color: #5a1a1a; /* warm chilli red */
+  font-weight: 500;
   margin-bottom: 22px;
 }
+
 
 /* Mobile */
 @media (max-width: 768px) {
