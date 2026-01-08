@@ -1,196 +1,118 @@
-/* Reset */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+/* BODY */
 body {
   background: #ffffff;
-  color: #000000;
-  margin: 0;
-  font-family: Arial, sans-serif;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* MAIN WRAPPER */
 .manuscript {
   max-width: 900px;
-  margin: 30px auto 40px; /* pulled up */
-  padding: 20px;
+  margin: 48px auto 40px;
+  padding: 0 18px;
   text-align: center;
 }
 
-
-
-/* Title */
+/* BRAND TITLE */
 .manuscript h1 {
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: 4px;
   margin-bottom: 4px;
 }
 
-/* Subtitle */
-
-
+/* TAGLINE */
 .subtitle {
-  font-size: 11px;   /* slightly smaller */
-  font-weight: 600;
+  font-size: 13px;
   letter-spacing: 2px;
   color: #8b1e1e;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   text-transform: uppercase;
 }
 
-
-
-/* Images */
+/* HERO IMAGE */
 .hero-images {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-bottom: 20px;
+  margin: 14px 0 10px;
 }
 
 .hero-images img {
   width: 100%;
-  max-width: 260px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-  filter: grayscale(10%);
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-/* Hover effect */
-.hero-images img:hover {
-  transform: scale(1.04);
-  filter: grayscale(0%);
-}
-
-/* Paragraphs */
-.manuscript p {
-  
-  
-  font-weight: 500;
-  margin-bottom: 22px;
-}
-.manuscript p {
-  font-size: 15px;           /* slightly smaller */
-  font-weight: 500;          /* clearer */
-  color: #8b1e1e;
-  margin-top: 6px;           /* pulls it UP */
-  margin-bottom: 18px;
-  white-space: nowrap;
-}
-
-details p {
-  font-size: 15px;
-  font-weight: 500;
-  color: #8b1e1e;
-  margin-top: 6px;
-  margin-bottom: 18px;
-  white-space: nowrap;
-}
-
-
-
-
-/* Mobile */
-@media (max-width: 768px) {
-  .hero-images {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-images img {
-    max-width: 90%;
-    height: auto;
-  }
-
-  .manuscript h1 {
-    font-size: 32px;
-  }
-
-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 720px;
+  border-radius: 10px;
   display: block;
+  margin: auto;
   background: #fff;
 }
-  
-/* remove arrows */
-details summary::marker,
-summary::marker {
-  content: "";
+
+/* TEXT UNDER IMAGE */
+.manuscript > p {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  color: #8b1e1e;
+  font-weight: 500;
 }
 
-/* clean underline */
-details summary {
-  list-style: none;
-  cursor: pointer;
-  padding-bottom: 6px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid rgba(0,0,0,0.15); /* subtle underline */
+/* ACCORDION */
+.accordion {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 18px 40px;
+  text-align: left;
 }
 
-/* remove default arrow spacing */
-details summary::-webkit-details-marker {
+/* REMOVE ARROWS */
+summary::marker,
+summary::-webkit-details-marker {
   display: none;
 }
-  
-}
-/* Chilli section heading – refined */
 
+/* SECTION TITLE */
 details summary {
-  position: relative;
-  top: -14px;     /* 2px more UP */
-  left: 12px;     /* 2px more RIGHT */
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 0 6px;
+  border-bottom: 1px solid #ddd;
+  cursor: default;
 }
 
-/* King of Spices layout */
-details {
-  position: relative;
-}
-
+/* INFO BOX ABOVE TITLE */
 .info-box {
   background: #fff7f7;
   border-left: 3px solid #8b1e1e;
   padding: 10px 14px;
-  margin-bottom: 6px;   /* tight to heading */
+  margin-bottom: 6px;
   max-width: 520px;
 }
 
 .info-box p {
-  margin: 0;
-  color: #8b1e1e;
   font-size: 13.5px;
   line-height: 1.6;
+  color: #8b1e1e;
 }
 
+/* ACCORDION CONTENT */
+details p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  padding: 10px 0 14px;
+}
 
-/* desktop: move box to right */
-@media (min-width: 900px) {
-  details {
-    display: flex;
-    align-items: flex-start;
-    gap: 32px;
+/* MOBILE POLISH */
+@media (max-width: 768px) {
+  .manuscript h1 {
+    font-size: 34px;
   }
 
-  details summary {
-    flex: 1;
+  .subtitle {
+    font-size: 12px;
   }
-
-  .info-content {
-    margin-top: 0;
-  }
-
-
-
-
-  
-
-
+}
