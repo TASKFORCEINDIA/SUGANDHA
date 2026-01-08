@@ -143,13 +143,14 @@ details summary::-webkit-details-marker {
 
 details summary {
   position: relative;
-  top: -12px;      /* move UP more */
-  left: 10px;      /* one step RIGHT */
+  top: -14px;     /* 2px more UP */
+  left: 12px;     /* 2px more RIGHT */
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
 
   
 
