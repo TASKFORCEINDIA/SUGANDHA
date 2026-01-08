@@ -115,4 +115,9 @@ details p {
   .subtitle {
     font-size: 12px;
   }
+/* Make accordion content open ABOVE the title */
+details[open] {
+  display: flex;
+  flex-direction: column-reverse;
 }
+
