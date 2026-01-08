@@ -83,6 +83,15 @@ body {
   white-space: nowrap;
 }
 
+details p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #8b1e1e;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  white-space: nowrap;
+}
+
 
 
 
