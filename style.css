@@ -219,6 +219,29 @@ summary:hover {
   border-radius: 8px;
   background: #fff;
 }
+  /* Make ALL boxes identical in size & spacing */
+
+summary,
+.chilli-box {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  padding: 12px 14px;
+  line-height: 1.2;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+
+  margin: 8px 0;   /* reduced gap */
+}
+
+/* Reduce gap above chilli list */
+.chilli-list {
+  margin-top: 6px;
+}
+
 
 
 
