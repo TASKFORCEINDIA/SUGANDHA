@@ -120,8 +120,7 @@ details[open] {
   display: flex;
   flex-direction: column-reverse;
 }
-  
-/* Remove default arrow from summary */
+  /* Remove default arrow from summary */
 summary {
   list-style: none;
 }
@@ -129,4 +128,15 @@ summary {
 summary::-webkit-details-marker {
   display: none;
 }
+
+/* Underline style for THE KING OF SPICES */
+summary {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+
 
