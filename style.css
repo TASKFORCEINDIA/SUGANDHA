@@ -151,6 +151,22 @@ details summary {
   text-transform: uppercase;
 }
 
+/* King of Spices info box */
+.info-content {
+  max-width: 720px;
+  margin: 16px auto 24px;
+  padding: 14px 18px;
+  border-left: 3px solid #8b1e1e;
+  background: #fffafa;
+  color: #222;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.info-content p {
+  margin-bottom: 10px;
+}
+
 
   
 
