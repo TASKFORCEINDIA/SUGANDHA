@@ -105,9 +105,6 @@ summary.box {
   width: 100%;
 }
 
-.brand{
-  letter-spacing:2px;
-}
 
 .dh-wrap{
   position: relative;
@@ -116,12 +113,12 @@ summary.box {
 
 .spice{
   position: absolute;
-  bottom: -14px;
+  bottom: -11px;
   left: 0;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1px;
-  color: #8B0000;
+  color: #7A0000;
   white-space: nowrap;
   pointer-events: none;
 }
