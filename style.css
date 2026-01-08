@@ -137,4 +137,13 @@ details summary {
 details summary::-webkit-details-marker {
   display: none;
 }
+  /* Chilli section heading tweak */
+details summary {
+  position: relative;
+  top: -6px;                 /* move UP slightly */
+  left: 6px;                 /* move RIGHT slightly */
+  font-weight: 600;          /* baby bold */
+  text-transform: uppercase; /* ALL CAPS */
+}
+
 
