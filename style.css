@@ -151,21 +151,39 @@ details summary {
   text-transform: uppercase;
 }
 
-/* King of Spices info box */
-.info-content {
-  max-width: 720px;
-  margin: 16px auto 24px;
-  padding: 14px 18px;
-  border-left: 3px solid #8b1e1e;
-  background: #fffafa;
-  color: #222;
-  text-align: left;
-  line-height: 1.6;
+/* King of Spices layout */
+details {
+  position: relative;
 }
 
-.info-content p {
-  margin-bottom: 10px;
+/* info box */
+.info-content {
+  max-width: 360px;
+  padding: 14px 16px;
+  background: #fffafa;
+  border-left: 3px solid #8b1e1e;
+  color: #222;
+  line-height: 1.6;
+  margin-top: 12px;
 }
+
+/* desktop: move box to right */
+@media (min-width: 900px) {
+  details {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  details summary {
+    flex: 1;
+  }
+
+  .info-content {
+    margin-top: 0;
+  }
+}
+
 
 
   
