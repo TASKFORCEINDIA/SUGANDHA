@@ -130,7 +130,7 @@ summary.box {
 }
 .spice-label{
   text-align: center;
-  margin-top: -6px;
+  margin-top: -12px;
   margin-bottom: 10px;
 
   font-size: 12px;
@@ -138,7 +138,7 @@ summary.box {
   letter-spacing: 1.5px;
   color: #8B0000;
 
-  transform: translateX(38px); /* 👈 moves CHILLI under DHA */
+  transform: translateX(46px); /* 👈 moves CHILLI under DHA */
 }
 
 
