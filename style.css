@@ -120,4 +120,13 @@ details[open] {
   display: flex;
   flex-direction: column-reverse;
 }
+  
+/* Remove default arrow from summary */
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
 
