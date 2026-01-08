@@ -137,13 +137,19 @@ details summary {
 details summary::-webkit-details-marker {
   display: none;
 }
-  /* Chilli section heading tweak */
+  
+}
+/* Chilli section heading – refined */
 details summary {
   position: relative;
-  top: -6px;                 /* move UP slightly */
-  left: 6px;                 /* move RIGHT slightly */
-  font-weight: 600;          /* baby bold */
-  text-transform: uppercase; /* ALL CAPS */
+  top: -6px;                  /* keep current position */
+  left: 6px;                  /* keep current position */
+  font-size: 13px;            /* ~3–4px smaller */
+  font-weight: 700;           /* bolder */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
+
+  
 
 
