@@ -137,6 +137,33 @@ summary {
   padding-bottom: 6px;
   border-bottom: 1px solid #ddd;
 }
+  
+/* Box style for THE KING OF SPICES */
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+
+  padding: 12px 14px;
+  margin: 16px 0;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* On tap / hover */
+summary:hover {
+  background: #faf7f7;
+  border-color: #8b0000;
+}
 
 
 
