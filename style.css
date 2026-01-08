@@ -99,6 +99,12 @@ summary.box {
   transform: scale(0.98);
 }
 
+/* Fix summary alignment */
+summary.box {
+  display: block;
+  width: 100%;
+}
+
 
 
 
