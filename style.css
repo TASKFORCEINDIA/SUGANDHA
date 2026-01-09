@@ -183,6 +183,25 @@ summary.box {
   text-decoration: underline;
 }
 
+/* ===== OTHER SPICES LINKS ===== */
+.spice-links{
+  text-align: center;
+  margin: 30px 0 40px;
+  font-size: 14px;
+}
+
+.spice-links a{
+  text-decoration: none;
+  color: #444;
+  margin: 0 6px;
+  font-weight: 500;
+}
+
+.spice-links a strong{
+  color: #8b0000;
+  font-weight: 700;
+}
+
 
 
 
