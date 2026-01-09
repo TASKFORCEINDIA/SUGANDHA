@@ -141,6 +141,48 @@ summary.box {
   transform: translateX(56px); /* 👈 moves CHILLI under DHA */
 }
 
+.quality-block{
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 16px;
+  color: #ddd;
+}
+
+.quality-block h3{
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.quality-block p{
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.pack-sizes{
+  margin-top: 14px;
+}
+
+.small-note{
+  font-size: 13px;
+  color: #aaa;
+}
+.spice-links{
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.spice-links a{
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.spice-links a:hover{
+  text-decoration: underline;
+}
+
 
 
 
